@@ -1,7 +1,7 @@
 import crypto from "crypto";
 
 export default async function handler(req, res) {
-  const ENDPOINT = "https://YOUR-PROJECT-NAME.vercel.app/api/deletion";
+  const ENDPOINT = "https://ebay-endpoint-henna.vercel.app/api/deletion";
   const VERIFICATION_TOKEN = "stazylsqr6b40p62yighr2bskt7lto2s";
 
   if (req.method === "GET") {
